@@ -1,0 +1,14 @@
+name: ItemConverterPlugin
+version: '${version}'
+main: me.gibson.itemconverterplugin.ItemConverterPlugin
+api-version: '1.20'
+commands:
+  convertItems:
+    description: Converts the player's item durability to Custom Model Data.
+    usage: /<command>
+    permission: itemconverterplugin.convert.self
+
+permissions:
+  itemconverterplugin.convert.self:
+    description: Allows use of /convertItems
+    default: op
